@@ -4,6 +4,11 @@ body{
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 h4{
   margin: 0;
 }
@@ -54,7 +59,6 @@ h4{
   padding: 10px;
   background: #fcfeff;
   border solid: #090d0f 1px;
-  text-decoration: none;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 50px;
