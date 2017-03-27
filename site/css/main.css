@@ -1,0 +1,83 @@
+body{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+h4{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  flex-grow: 4;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-grow: 1;
+  border-bottom: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+.header_title{
+  margin: auto;
+  color: #F2FB04;
+}
+
+.main{
+  display: flex;
+  flex-grow: 5;
+  align-items: center;
+  max-height: 80vh;
+  width: 1280px;
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+.alternativs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alternativ{
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px #666666;
+  font-color: #030203;
+  font-size: 40px;
+  padding: 10px;
+  background: #fcfeff;
+  border solid: #090d0f 1px;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px;
+}
+
+.ads{
+  height: 100vh;
+  width: 320PX;
+  display: flex;
+  flex-direction: column;
+}
+
+.ad{
+  display: flex;
+  flex-grow: 1;
+  max-width: 20vw;
+}
+
+.ad_link{
+  height: 100vh;
+  width: 320px;
+  position: fixed;
+  right: 0;
+}
