@@ -16,10 +16,13 @@
           <div class="main_container">
             <h2>What's your issue?</h2>
             <textarea cols="50" rows="15"></textarea>
-            <div class="alternativ send">
+            <div class="alternativ send" onclick="display_message('.main_container')">
               <h4>Send</h4>
             </div>
           </div>
+          <aside id="message" class="hidden">
+            <!-- Skriv medelande här -->
+          </aside>
         </div>
       </div>
       <aside class="ads">

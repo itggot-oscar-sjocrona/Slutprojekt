@@ -187,3 +187,11 @@ h4{
 .send{
   margin-top: 50px;
 }
+
+.hidden{
+  display: none;
+}
+
+.message{
+  /* Lägg till ty medelande här*/
+}
