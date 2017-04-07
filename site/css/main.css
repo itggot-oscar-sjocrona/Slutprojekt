@@ -43,6 +43,10 @@ h4{
   background-color: rgba(211, 211, 211, 0.2);
 }
 
+.main_vote{
+  justify-content: space-around;
+}
+
 .payment{
   display: flex;
   flex-direction: column;
@@ -209,7 +213,6 @@ h4{
 .weather_main_container{
   width: 100%;
   height: 100%;
-  background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -220,4 +223,95 @@ h4{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.weather_img{
+  width: 60px;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-bottom: -20px;
+}
+
+.vote_button{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.slider{
+  width: 350px;
+}
+
+.slider_fix{
+  margin-top: -23px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 200px;
+  background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: black;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: black;
 }
