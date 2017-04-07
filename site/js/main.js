@@ -20,7 +20,7 @@ function timer() {
     document.getElementById('demo').innerHTML = "0" + days + ":" + hours + ":" + minutes + ":" + remainingSeconds;
     if (seconds == 0) {
         clearInterval(countdownTimer);
-        document.getElementById('demo').innerHTML = "0";
+        document.getElementById('demo').innerHTML = "00:00:00:00";
     } else {
         seconds--;
     }
