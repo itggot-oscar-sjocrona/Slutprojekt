@@ -196,6 +196,7 @@ h4{
 
 .send{
   margin-top: 50px;
+  cursor: pointer;
 }
 
 #message{
